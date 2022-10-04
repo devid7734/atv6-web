@@ -1,0 +1,67 @@
+html { 
+    background: url(photo/gagafilter.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+    main{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header{
+        margin-bottom: 30px;
+    }
+    img{
+        width: 70%;
+    }
+
+    a{
+        text-decoration:underline;
+    }
+    
+    h1 {
+        text-align: justify; 
+        font-size: 50px; 
+        text-transform: capitalize; 
+        color: rgb(215, 3, 162);
+        box-shadow: 0 0 1em gold;
+        }
+        
+        p {
+        width: 500px;
+        margin-bottom: 100px;
+        text-align: justify;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 0.1em 0.1em rgb(244, 102, 201)
+        }
+
+    .u-margin-small {
+        margin: 5px;
+            
+    }
+       
+    .sobre-imagem{
+        width: 45%;
+        display: inline-block;
+
+    }
+
+    .sobre-conteudo__botoes {
+        text-align: justify;
+        
+    }
+
+    .btn {
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+
+    .btn_pink{
+        background-color: rgb(251, 1, 172);
+        color: rgb(54, 0, 104);
+        border: 1px solid black;
+
+    }
